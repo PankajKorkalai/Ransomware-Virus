@@ -1,0 +1,10 @@
+python -m vnenv .venv
+pip  install cryptography
+.\.venv\Scripts\activate
+
+
+pip install pyinstaller
+pyinstaller rw.py --onefile
+
+# two folder will create one is build and one dist
+#inside dist main.exe is there 
